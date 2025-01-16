@@ -1,10 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rock Paper Scissors</title>
   </head>
-  <body></body>
+  <body>
+    <h1>Let's Play Rock, Paper, Scissors!</h1>
+    <div class="cpu-choice">
+      Hey, I'm Bob let's get started!<img src="./images/rock.png" />
+    </div>
+    <div class="result"></div>
+    <div class="buttons">
+      <button class="rock">
+        <img src="./images/rock.png" class="rock" />Rock
+      </button>
+      <button class="paper"><img src="./images/paper.png" class="paper" />Paper</button>
+      <button class="scissors">
+        <img src="./images/scissors.png" class="scissors" />Scissors
+      </button>
+    </div>
+    <div class="scoreboard">
+      <div class="player-score">
+        <div class="score">0</div>
+        Your Score
+      </div>
+      <div class="cpu-score">
+        <div class="score">0</div>
+        CPU Score
+      </div>
+    </div>
+    <footer>Images provided by Dreamstime.com</footer>
+  </body>
 </html>
